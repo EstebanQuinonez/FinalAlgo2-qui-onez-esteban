@@ -10,5 +10,22 @@ package examenfinalalgo2;
  * @author Esteban QR
  */
 public class Trabajador {
+    private String password;
+    private String email;
+
+    public boolean ingresar(String email, String password) {
+        
+        return false;
+    }
+
+    public boolean salir() {
+        
+        return false;
+    }
+
+    public boolean crearVenta(Cliente c) {
+        
+        return false;
+    }
     
 }

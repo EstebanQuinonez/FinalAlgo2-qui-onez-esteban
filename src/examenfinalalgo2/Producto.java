@@ -10,5 +10,18 @@ package examenfinalalgo2;
  * @author Esteban QR
  */
 public class Producto {
-    
+    private float precio;
+    private String nombre;
+    private int stock;
+    private String marca;
+
+    public boolean vender(int cantidad) {
+       
+        return false;
+    }
+
+    public boolean reponer(int cantidad) {
+       
+        return false;
+    }
 }

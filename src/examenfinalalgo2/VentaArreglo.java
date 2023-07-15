@@ -10,5 +10,26 @@ package examenfinalalgo2;
  * @author Esteban QR
  */
 public class VentaArreglo {
+     private int indice;
+
+    public int getIndice() {
+        return indice;
+    }
+
+    public void setIndice(int indice) {
+        this.indice = indice;
+    }
+     
+     
+
+    public VentaArreglo(int tamaño) {
+        
+    }
+
+    public boolean registrarVenta(Venta v) {
+        
+        return false;
+    }
+    
     
 }

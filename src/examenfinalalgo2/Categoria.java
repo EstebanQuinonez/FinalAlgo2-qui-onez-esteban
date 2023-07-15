@@ -10,5 +10,17 @@ package examenfinalalgo2;
  * @author Esteban QR
  */
 public class Categoria {
+    private String nombre;
+    private boolean disponible;
+
+    public boolean habilitar() {
     
+        return false;
+    }
+
+    public boolean deshabilitar() {
+        
+        return false;
+    }
+  
 }

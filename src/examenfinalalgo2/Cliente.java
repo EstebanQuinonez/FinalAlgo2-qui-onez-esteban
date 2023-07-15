@@ -11,4 +11,17 @@ package examenfinalalgo2;
  */
 public class Cliente {
     
+    private int celular;
+    private float dinero;
+
+    public boolean pagar() {
+        
+        return false;
+    }
+
+    public boolean recargarDinero() {
+        
+        return false;
+    }
+    
 }
