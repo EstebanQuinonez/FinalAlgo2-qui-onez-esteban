@@ -5,6 +5,9 @@
  */
 package examenfinalalgo2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Esteban QR
@@ -13,8 +16,20 @@ public class Tienda {
     private String nombre;
     private String ruc;
     private String direccion;
+    public List<Cliente> listaClientes;
+    
+    public Tienda() {
+        listaClientes = new ArrayList<>();
+    }
 
-    public void agregarCliente(Cliente c) {
+     public void agregarCliente(Cliente c) {
+
+        if (!listaClientes.contains(c)) {
+            listaClientes.add(c);
+            System.out.println("Cliente agregado correctamente.");
+        } else {
+            System.out.println("El cliente ya existe en la lista.");
+        }
     }
 
     public void agregarCategoria(Categoria cat) {
